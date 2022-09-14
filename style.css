@@ -1,12 +1,5 @@
 
-/* All ID's used in the HTML file menu.html */
-body{
-    border-style:groove;
-    border-width: 10px;
-    border-color:rgb(8, 221, 8);
-    background-image:url("./download1.jpg");
-    background-size: cover;
-}
+/* All ID's used in the HTML file index.html */
 
 #signup{
     width: 400px;
@@ -23,8 +16,6 @@ body{
 #four{
     width: 425px;
     height: 420px;
-    /* margin-top:200px;
-    margin-left: 100px; */
     margin: 200px 0px 0px 100px;
     border: 10px solid grey;
     border-radius: 50%;
@@ -46,7 +37,15 @@ body{
     border-radius:50px;
 }
 
-/* ELEMENT SELECTORS used in menu.html file */
+/* ELEMENT SELECTORS used in index.html file */
+
+body{
+    border-style:groove;
+    border-width: 10px;
+    border-color:rgb(8, 221, 8);
+    background-image:url("./download1.jpg");
+    background-size: cover;
+}
 .menu1 h1{
     font-weight: bold;
     font-size: 45px;
@@ -67,7 +66,7 @@ input{
     border-color: red;
 }
 
-/* All classes which we use in the HTML file menu.html */
+/* All classes which we use in the HTML file index.html */
 
 .para{
     display: flex;
